@@ -17,3 +17,6 @@ fi
 
 # Put your fun stuff here.
 alias dotfiles='git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
+
+# use helix as editor
+EDITOR='hx'
