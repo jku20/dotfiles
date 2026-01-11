@@ -1,0 +1,6 @@
+[general]
+import = ["~/.config/alacritty/themes/themes/gruvbox_light.toml"]
+
+[window]
+decorations = "None"
+opacity=0.8
