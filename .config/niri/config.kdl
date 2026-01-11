@@ -620,4 +620,7 @@ binds {
     // Powers off the monitors. To turn them back on, do any input like
     // moving the mouse or pressing any other key.
     Mod+Shift+P { power-off-monitors; }
+
+    // Toggle status bar
+    Mod+B { spawn-sh "killall -SIGUSR1 waybar"; }
 }
