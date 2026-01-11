@@ -21,6 +21,8 @@ alias dotfiles='git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 # use helix as editor
 EDITOR='hx'
 
+. "$HOME/.cargo/env"
+
 # Use fish in place of bash
 # keep this line at the bottom of ~/.bashrc
 [ -x /bin/fish ] && SHELL=/bin/fish exec fish
