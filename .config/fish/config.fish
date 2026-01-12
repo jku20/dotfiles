@@ -1,7 +1,9 @@
 set -g fish_greeting
 if status is-interactive
     # distrobox aliases
-    alias dbuild="distrobox assemble create --file"
+    function dbuild
+        distrobox assemble create --file $HOME/distrobox-manifests/$argv.ini
+    end
     function drebuild
         distrobox rm $argv && dbuild $argv
     end
