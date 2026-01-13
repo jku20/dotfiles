@@ -36,7 +36,7 @@
 	"max-length": 10
   },
   "backlight": {
-	"format": "{}% brightness",
+	"format": "bri {}%",
     "tooltip-format": "{percent}%",
   },
   "memory": {
@@ -60,7 +60,7 @@
   //   "scroll-step": 5
   // },
   "battery": {
-    "format": "{}% bat",
+    "format": "bat {}%",
     "interval": 10,
     "states": {
       "good": 80,
