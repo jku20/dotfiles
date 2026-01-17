@@ -5,6 +5,7 @@ if status is-interactive
         distrobox assemble create --file $HOME/distrobox-manifests/$argv.ini
     end
     function drebuild
+        distrobox stop $argv
         distrobox rm $argv && dbuild $argv
     end
 
