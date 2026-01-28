@@ -20,6 +20,8 @@ alias dotfiles='git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 
 # use helix as editor
 EDITOR='hx'
+PATH=/nix/var/nix/profiles/default/bin:$PATH
+PATH=$HOME/.nix-profile/bin/:$PATH
 
 . "$HOME/.cargo/env"
 
