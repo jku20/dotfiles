@@ -22,6 +22,8 @@ alias dotfiles='git --git-dir="$HOME/.dotfiles/" --work-tree="$HOME"'
 EDITOR='hx'
 PATH=/nix/var/nix/profiles/default/bin:$PATH
 PATH=$HOME/.nix-profile/bin/:$PATH
+PATH=/var/tmp/portage/dev-python/uv-0.9.15/image/usr/bin:$PATH
+PATH=/home/jeremy/.local/bin:$PATH
 
 . "$HOME/.cargo/env"
 
