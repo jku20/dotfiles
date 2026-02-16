@@ -2,6 +2,14 @@
 command = "codebook-lsp"
 args = ["serve"]
 
+[language-server.ruff]
+command = "ruff"
+args = ["server"]
+
 [[language]]
 name = "markdown"
 language-servers = ["codebook"]
+
+[[language]]
+name = "python"
+language-servers = ["ruff"]
